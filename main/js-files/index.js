@@ -29,9 +29,8 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const svgContent = require('./svgContent');
-// import { SVG, extend as SVGextend, Element as SVGElement } from '@svgdotjs/svg.js';
-// const svg = require('svg.js');
-// import { SVG } from '@svgdotjs/svg.js'
+const shapes = require('./shapes')
+
 
 function init() {
 
@@ -66,7 +65,10 @@ function init() {
   ])
   .then((responses) => {
 
-    fs.writeFile('logo.svg', svgContent(responses), (err) => {
+    const img = svgContent(responses)
+    const final = img.render();
+
+    fs.writeFile('../examples/square/logo.svg', final, (err) => {
       err ? console.error(err) : console.log('Generated logo.svg!');
     });
   });
