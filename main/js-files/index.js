@@ -43,7 +43,7 @@ function init() {
     const img = svgContent(responses)
     const final = img.render();
 
-    fs.writeFile('../examples/square/logo.svg', final, (err) => {
+    fs.writeFile('logo.svg', final, (err) => {
       err ? console.error(err) : console.log('Generated logo.svg!');
     });
   });

@@ -19,8 +19,7 @@ class Triangle extends Shapes {
   }
 
   render() {
-    return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300px" height="200px"><polygon points="150,0 300,200 0,200" fill="${this.shapeColor}" /><style>
-    .text{font-size: 30px;}</style><text x="150" y="125" class="text" fill="${this.textColor}" text-anchor="middle">${this.text}</text></svg>`;
+    return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300px" height="200px"><polygon points="150,0 300,200 0,200" fill="${this.shapeColor}" /><text x="150" y="125" class="text" fill="${this.textColor}" font-size="30px" text-anchor="middle">${this.text}</text></svg>`;
   }
 }
 
@@ -31,8 +30,7 @@ class Circle extends Shapes {
   }
 
   render() {
-    return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300px" height="200px"><circle cx="150" cy="100" r="100" fill="${this.shapeColor}" /><style>
-    .text{font-size: 30px;}</style><text x="150" y="100" class="text" fill="${this.textColor}" text-anchor="middle">${this.text}</text></svg>`;
+    return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300px" height="200px"><circle cx="150" cy="100" r="100" fill="${this.shapeColor}" /><text x="150" y="100" class="text" fill="${this.textColor}" font-size="30px" text-anchor="middle">${this.text}</text></svg>`;
   }
 }
 
@@ -43,8 +41,7 @@ class Square extends Shapes {
   }
 
   render() {
-    return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300px" height="200px"><rect width="100%" height="100%" fill="${this.shapeColor}" /><style>
-    .text{font-size: 30px;}</style><text x="50%" y="50%" class="text" fill="${this.textColor}" text-anchor="middle">${this.text}</text></svg>`;
+    return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300px" height="200px"><rect width="100%" height="100%" fill="${this.shapeColor}" /><text x="50%" y="50%" class="text" fill="${this.textColor}" font-size="30px" text-anchor="middle">${this.text}</text></svg>`;
   }
 }
 
