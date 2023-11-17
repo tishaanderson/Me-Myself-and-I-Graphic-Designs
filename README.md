@@ -34,29 +34,32 @@ Each shape will then be tested using the `render()` method that returns a string
 
 Once setup, answer the following prompt questions regarding your logo:
 
-``````
-1. Enter up to 3 characters that you want displayed on your logo design.
+![Running node index.js Demo Screenshot](main/images/node-index-demo.png)
 
-2. Select a COLOR for the TEXT on your logo design: [White, Black, or Gray]
+Once all questions are answered, you will see `Generated logo.svg!` populate at the bottom of the terminal (as seen above).
 
-3. Select a SHAPE for your logo design: [Triangle, Circle, or Square]
+Your newly designed logo will populate in your project folders:
 
-4. Select a COLOR for the SHAPE of your logo design: [Red, Green or Blue]
-``````
+![Newly Populated Logo.svg File Display](main/images/new-logo.png)
 
-Once all questions are answered, you will see the following:
+I verified that my app works properly by running tests for each shape (Triangle, Circle, and Square) using the `render()` method ensuring it returned a string for the corresponding SVG file with the given shape color. When I ran `npm run test` in the terminal, all 3 tests passed:
 
-``````
-Generated logo.svg!
-``````
+![Shapes Test Passed Display](main/images/Pass3ShapeTests.png)
 
-Your newly designed logo will populate in your project folders.
-
+I have included examples of each shape for the logo designs.
 
 
 ## Test Sample
 
 #### Credits
+
+[MDN WEB DOCS SVG: Scalable Vector Graphics](https://developer.mozilla.org/en-US/docs/Web/SVG)
+
+[Example SVG](https://static.fullstack-bootcamp.com/fullstack-ground/module-10/circle.svg)
+
+[Class Constructors and Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#inheritance)
+
+[JEST](https://jestjs.io/docs/getting-started)
 
 #### License
 
