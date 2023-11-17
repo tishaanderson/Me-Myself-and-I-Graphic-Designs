@@ -1,5 +1,8 @@
+
+//importing shapes file
 const {Circle, Square, Triangle} = require('./shapes');
 
+//creating logo template literal
 function createLogo({
 
   text,
@@ -56,29 +59,5 @@ function createLogo({
   return svgContent;
 }
 
+//exporting function
 module.exports = createLogo;
-
-
-
-
-// const svgContent = function ({
-//   text,
-//   textColor,
-//   shape,
-//   shapeColor,
-// }) {
-
-//   return `
-    
-//   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200">
-//     <rect width="100%" height="100%" fill="${this.color}" />
-//     <text x="50%" y="50%" font-size="16" fill="${this.textColor}" text-anchor="middle" alignment-baseline="middle">
-//       ${this.text}
-//     </text>
-//   </svg>
-    
-//   `;
-
-// };
-
-// module.exports = svgContent;

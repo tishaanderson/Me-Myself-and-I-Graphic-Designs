@@ -1,3 +1,5 @@
+
+//creating Shapes and children (triange, circle, square) classes with each of their properties and corresponding values
 class Shapes {
   constructor(text, textColor, shapeColor) {
     this.text = text;
