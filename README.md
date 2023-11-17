@@ -56,6 +56,10 @@ Watch the video of my test logo here:
 
 
 
+https://github.com/tishaanderson/Me-Myself-and-I-Graphic-Designs/assets/136303804/a597aeef-3d72-41c7-8159-183d02b6957c
+
+
+
 ### Credits
 
 [MDN WEB DOCS SVG: Scalable Vector Graphics](https://developer.mozilla.org/en-US/docs/Web/SVG)
