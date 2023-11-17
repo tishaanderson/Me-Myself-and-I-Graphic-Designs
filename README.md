@@ -46,12 +46,17 @@ I verified that my app works properly by running tests for each shape (Triangle,
 
 ![Shapes Test Passed Display](main/images/Pass3ShapeTests.png)
 
-I have included examples of each shape for the logo designs.
+I have included examples of each shape for the logo designs if you'd like to reference them before creating your new logo.
 
+![Examples Folder with Logos for Each Shape Choice](main/images/Example-Logos.png)
 
 ## Test Sample
 
-#### Credits
+Watch the video of my test logo here:
+
+
+
+### Credits
 
 [MDN WEB DOCS SVG: Scalable Vector Graphics](https://developer.mozilla.org/en-US/docs/Web/SVG)
 
@@ -61,6 +66,6 @@ I have included examples of each shape for the logo designs.
 
 [JEST](https://jestjs.io/docs/getting-started)
 
-#### License
+### License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
