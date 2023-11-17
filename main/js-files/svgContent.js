@@ -15,13 +15,13 @@ function createLogo({
   let shapeFillColor = '';
 
   switch(textColor) {
-    case 'white':
+    case 'White':
       textFillColor = '#ffffff';
       break;
-    case 'black':
+    case 'Black':
       textFillColor = '#000000';
       break;
-    case 'gray':
+    case 'Gray':
       textFillColor = '#808080';
       break;
     default:
@@ -29,13 +29,13 @@ function createLogo({
   }
 
   switch(shapeColor) {
-    case 'red':
+    case 'Red':
       shapeFillColor = '#ff0000';
       break;
-    case 'green':
+    case 'Green':
       shapeFillColor = '#008000';
       break;
-    case 'blue':
+    case 'Blue':
       shapeFillColor = '#0000ff';
       break;
     default:
@@ -44,13 +44,13 @@ function createLogo({
 
   let selectedShape;
   switch(shape) {
-    case 'triangle':
+    case 'Triangle':
       selectedShape = new Triangle(text, textFillColor, shapeFillColor);
       break;
-    case 'circle':
+    case 'Circle':
       selectedShape = new Circle(text, textFillColor, shapeFillColor);
       break;
-    case 'square':
+    case 'Square':
       selectedShape = new Square(text, textFillColor, shapeFillColor);
       break;
     default:

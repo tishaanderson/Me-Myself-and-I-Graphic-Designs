@@ -28,24 +28,30 @@ node index.js
 
 ## Usage
 
-Acceptance Criteria
+The application will include `Triangle`, `Circle`, and `Square` classes, as well as tests for each of these classes using Jest. Any common functionality and properties shared by the `Triangle`, `Circle`, and `Square` classes will be placed in a parent `Shape` class and the inheritance method will reuse the code in the child classes.
+
+Each shape will then be tested using the `render()` method that returns a string for the corresponding SVG file with the given shape color.
+
+Once setup, answer the following prompt questions regarding your logo:
 
 ``````
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for text
-THEN I can enter up to three characters
-WHEN I am prompted for the text color
-THEN I can enter a color keyword (OR a hexadecimal number)
-WHEN I am prompted for a shape
-THEN I am presented with a list of shapes to choose from: circle, triangle, and square
-WHEN I am prompted for the shape's color
-THEN I can enter a color keyword (OR a hexadecimal number)
-WHEN I have entered input for all the prompts
-THEN an SVG file is created named `logo.svg`
-AND the output text "Generated logo.svg" is printed in the command line
-WHEN I open the `logo.svg` file in a browser
-THEN I am shown a 300x200 pixel image that matches the criteria I entered
+1. Enter up to 3 characters that you want displayed on your logo design.
+
+2. Select a COLOR for the TEXT on your logo design: [White, Black, or Gray]
+
+3. Select a SHAPE for your logo design: [Triangle, Circle, or Square]
+
+4. Select a COLOR for the SHAPE of your logo design: [Red, Green or Blue]
 ``````
+
+Once all questions are answered, you will see the following:
+
+``````
+Generated logo.svg!
+``````
+
+Your newly designed logo will populate in your project folders.
+
 
 
 ## Test Sample
@@ -53,3 +59,5 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 #### Credits
 
 #### License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

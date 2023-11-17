@@ -20,19 +20,19 @@ function init() {
       type: 'list',
       message: 'Select a COLOR for the TEXT on your logo design:',
       name: 'textColor',
-      choices: ['white', 'black', 'gray'],
+      choices: ['White', 'Black', 'Gray'],
     },
     {
       type: 'list',
       message: 'Select a SHAPE for your logo design:',
       name: 'shape',
-      choices: ['triangle', 'circle', 'square'],
+      choices: ['Triangle', 'Circle', 'Square'],
     },
     {
       type: 'list',
       message: 'Select a COLOR for the SHAPE of your logo design:',
       name: 'shapeColor',
-      choices: ['red', 'green', 'blue'],
+      choices: ['Red', 'Green', 'Blue'],
     },
     
     
