@@ -1,18 +1,11 @@
 {
-  "name": "main",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "example": "examples"
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   },
   "scripts": {
     "test": "jest"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "inquirer": "^8.2.4"
   }
 }

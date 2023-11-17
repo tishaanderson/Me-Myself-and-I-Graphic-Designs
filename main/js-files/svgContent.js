@@ -42,21 +42,22 @@ function createLogo({
       throw new Error('Invalid shape color.');
   }
 
+  let selectedShape;
   switch(shape) {
     case 'triangle':
-      svgContent = new Triangle(text, textFillColor, shapeFillColor);
+      selectedShape = new Triangle(text, textFillColor, shapeFillColor);
       break;
     case 'circle':
-      svgContent = new Circle(text, textFillColor, shapeFillColor);
+      selectedShape = new Circle(text, textFillColor, shapeFillColor);
       break;
     case 'square':
-      svgContent = new Square(text, textFillColor, shapeFillColor);
+      selectedShape = new Square(text, textFillColor, shapeFillColor);
       break;
     default:
       throw new Error('Invalid shape.');
   }
   
-  return svgContent;
+  return selectedShape.render();
 }
 
 //exporting function

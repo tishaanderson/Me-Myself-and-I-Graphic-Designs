@@ -2,8 +2,8 @@
 //import all file paths necessary
 const fs = require('fs');
 const inquirer = require('inquirer');
-const svgContent = require('./svgContent');
-const shapes = require('./shapes')
+const createLogo = require('./svgContent');
+const { Triangle, Circle, Square } = require('./shapes')
 
 //init function to prompt user through questions regarding their design
 function init() {
@@ -40,10 +40,9 @@ function init() {
   //creating the new logo file with the user answers
   .then((responses) => {
 
-    const img = svgContent(responses)
-    const final = img.render();
+    const svgContent = createLogo(responses);
 
-    fs.writeFile('logo.svg', final, (err) => {
+    fs.writeFile('logo.svg', svgContent, (err) => {
       err ? console.error(err) : console.log('Generated logo.svg!');
     });
   });
